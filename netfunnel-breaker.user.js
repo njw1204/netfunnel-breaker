@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         netfunnel breaker
 // @version      0.1
-// @description  bypass netfunnel waiting queue
+// @description  Bypass NetFUNNEL Waiting Queue
 // @license      MIT
 // @homepageURL  https://github.com/njw1204/netfunnel-breaker
 // @match        http://*/*
