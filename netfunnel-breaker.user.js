@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         netfunnel breaker
+// @version      0.1
 // @description  bypass netfunnel waiting queue
 // @license      MIT
-// @version      0.1
+// @homepageURL  https://github.com/njw1204/netfunnel-breaker
 // @match        http://*/*
 // @match        https://*/*
 // @grant        unsafeWindow
