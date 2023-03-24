@@ -7,14 +7,14 @@
 // @grant        unsafeWindow
 // ==/UserScript==
 
-if (typeof unsafeWindow.NetFunnel !== 'undefined') {
-    unsafeWindow.NetFunnel.TS_BYPASS = true;
-}
-
-setInterval(function() {
+const bypass = () => {
     if (typeof unsafeWindow.NetFunnel !== 'undefined') {
         if (!unsafeWindow.NetFunnel.TS_BYPASS) {
             unsafeWindow.NetFunnel.TS_BYPASS = true;
         }
     }
-}, 100);
+
+    setTimeout(bypass, 100);
+};
+
+bypass();
