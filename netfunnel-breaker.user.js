@@ -9,14 +9,14 @@
 // @grant        unsafeWindow
 // ==/UserScript==
 
-const bypass = () => {
-    if (typeof unsafeWindow.NetFunnel !== 'undefined') {
-        if (!unsafeWindow.NetFunnel.TS_BYPASS) {
-            unsafeWindow.NetFunnel.TS_BYPASS = true;
-        }
+const zxcpoivh = () => {
+  if (typeof unsafeWindow.NetFunnel !== "undefined") {
+    if (!unsafeWindow.NetFunnel.TS_BYPASS) {
+      unsafeWindow.NetFunnel.TS_BYPASS = true;
     }
+  }
 
-    setTimeout(bypass, 100);
+  setTimeout(zxcpoivh, 1000);
 };
 
-bypass();
+zxcpoivh();
